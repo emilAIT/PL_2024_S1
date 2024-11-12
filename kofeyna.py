@@ -52,9 +52,6 @@ class Kofeyna:
             if quantity > 0:
                 arr.append(f'{item} : {quantity}')
         return '\n'.join(arr)
-    
-    
-    
 
     
     
