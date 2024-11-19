@@ -27,6 +27,11 @@ class Client:
     def getName(self):
         return self.name
     
+    def getAge(self):
+        return self.age
+
+    def setAge(self, age):
+        self.age = age
 
 class Optima:
     def __init__(self):

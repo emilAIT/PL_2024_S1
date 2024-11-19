@@ -10,6 +10,7 @@ class Client:
         self.name = name
         self.phone = phone
         self.balance = 0
+        self.age = None
     
     def addBalance(self, amount):
         self.balance += amount
@@ -22,6 +23,12 @@ class Client:
     
     def getName(self):
         return self.name
+
+    def getAge(self):
+        return self.age
+
+    def setAge(self, age):
+        self.age = age
 
 
 class Optima:
