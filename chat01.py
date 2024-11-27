@@ -161,7 +161,7 @@ class MyApp(QWidget):
             r = response.json().get('response', '').split('\n')
             arr = []
             for i in r:
-                if f'{me[0]}->{receiver}' in i:
+                if f'{sender}' in i:
                     arr.append(i)
             self.messages.setText('\n'.join(arr))
     
